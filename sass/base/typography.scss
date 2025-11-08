@@ -1,0 +1,40 @@
+@use "../abstracts/variables" as vars;
+
+body{
+    font-family: vars.$primary-font;
+}
+
+h1{
+    font-family: vars.$tittle-font;
+    font-size: 64px;
+    color: vars.$white-color;
+    font-weight: bold;
+    max-width: 600px;
+
+}
+
+.hero-description{
+    font-size: 18px;
+    font-weight: 300;
+    color: vars.$grey-color;
+    line-height: 40px;
+
+}
+
+h3{
+    font-size: 18px;
+    color: vars.$white-color;
+    font-weight: 500;
+    max-width: 500px;
+}
+
+header a{
+    font-size: 12px;
+    color: vars.$grey-color;
+    font-weight: 300;
+    text-decoration: none;
+}
+header a:hover{
+    color: vars.$white-color;
+}
+

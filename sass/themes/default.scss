@@ -1,0 +1,25 @@
+@use '../abstracts/variables' as vars;
+@use '../abstracts/mixins' as mixins;
+
+
+ 
+body {
+    overflow-x: hidden;
+    background-color:#2B2D38;
+    background-image: url(../../img/profile-imgs.png);
+    background-size: 700px 670px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
+} 
+
+.container{
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
