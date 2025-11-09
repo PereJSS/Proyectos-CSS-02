@@ -2,7 +2,7 @@
 @use "../abstracts/mixins" as mixins;
 
 .info-content {
-  @include mixins.flex();
+  display: flex;
   gap: 40px;
 }
 
