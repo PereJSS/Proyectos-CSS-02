@@ -145,8 +145,6 @@ header a:hover {
 
 .info-content {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
   gap: 40px;
 }
 
